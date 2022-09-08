@@ -7,11 +7,13 @@
 			
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-			<link rel="stylesheet" type="text/css" href="css/index.css">	
+			<link rel="stylesheet" type="text/css" href="css/index.css">
+
 
 </head>
 <body>
 		
+				
 
 	<!-- MARGIN LEFT -->
 	<div id="marginleft">
@@ -19,14 +21,25 @@
 	</div>
 
 	<!-- center div -->
+		<div id="body_bg" 
+		style="
+		z-index: -1;
+		width: 90%; 
+		height: 100%; 
+		float: left;
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+		background-image: url(css/assets/body_bg.png); 
+		background-size: 105%; 
+		background-repeat: no-repeat; 
+		border-radius: 2vw;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+		">
+			
 		<div id="centerdiv">
 
 
-			<div id="topwave" style="background-color: white;">
-				
-				<img src="css/assets/topwave.png" style="width:55vw; height: 29vw; margin-top: .1vw;">
-
-			</div>
+		
 
 			<!--basic info-->
 				<div id="basic_info">
@@ -39,8 +52,8 @@
 						NADONG
 					</h3>
 
-					<p style="padding-top:1vw; font-size: 1.5vw; padding-left: 8vw; margin: 0; letter-spacing: .3vw;">
-						GRAPHIC DESIGNER
+					<p style="padding-top:1vw; font-size: 1vw; padding-left: 8vw; margin: 0; letter-spacing: .3vw;">
+						GRAPHIC DESIGN - DEVELOPER
 					</p>
 
 				</div>
@@ -76,7 +89,7 @@
 
 					<div id="right_margin_line" style="float: right;">
 							
-							<img src="css/assets/sidewave.png" style="width: 35vw; height: 35vw; margin-top: 25vw; ">
+							<!-- <img src="css/assets/sidewave.png" style="width: 35vw; height: 35vw; margin-top: 25vw; "> -->
 
 
 					</div>
@@ -151,8 +164,6 @@
 			<!-- my profile end -->
 
 
-
-
 			<!-- Background education -->
 				<div id="back_educ">
 					<h3 style=" color: #FFC5F6; font-size: 1.3vw; padding-left: 8vw; letter-spacing: 0.1vw">
@@ -180,220 +191,316 @@
 						Samson Road Corner, Caimito Road, Caloocan City
 					</p>
 				</div>
-
-				<!-- <div id="back_educ">
-					<h3 style=" color: #FFC5F6; font-size: 1.3vw; padding-left: 8vw; letter-spacing: 0.1vw">
-						EDUCATION
-					</h3>
-
-					<h4 style=" font-size: 1.1vw; padding-left: 10vw; letter-spacing: 0.1vw">
-						COLLEGE - UNIVERSITY OF CALOOCAN CITY (SY. 2018-2022)
-					</h4>
-
-					<p style=" font-size: 1.2vw; padding-left: 10vw; margin: 0; letter-spacing: 0.1vw">
-						Bachelor Science of Entertainment, Multimedia and Computing (BSEMC)<br>
-						Biglang Awa St. Grace Park East, 12th Avenue Caloocan City
-
-					</p>
-
-
-					<h4 style=" font-size: 1.1vw; padding-left: 10vw; letter-spacing: 0.1vw">
-						SENIOR HIGH SCHOOL - STI COLLEGE CALOOCAN (SY. 2017-2018)
-					</h4>
-
-					<p style=" font-size: 1.2vw; padding-left: 10vw; margin: 0; letter-spacing: 0.1vw">
-						TECH-VOC - Information Communication Technology <br>
-						Major in Mobile App and Web Designing (MAWD)<br>
-						Samson Road Corner, Caimito Road, Caloocan City
-					</p>
-				</div> -->
-			<!-- Background education end -->
+				<DIV id="skills" style=" height: 5vw;"></DIV>
 
 			<!-- Skills -->
 				<div style="width: 5%; height: 40vw; float: left;">
 				</div>
-				<div style="width: 90%; height: 40vw; float: left; background-image: url(css/assets/marble.jpg); background-size: 100%; background-repeat: no-repeat; border-radius: 2vw;">
-					<div style="background-color: rgba(255, 255, 255, .15);backdrop-filter: blur(10px); width: 30%; height: 37vw; float: left; margin: 1vw; border-radius: 2vw;">
-						<h3 style=" color: #FFC5F6; font-size: 1.3vw; padding-left: 2vw; letter-spacing: 0.1vw">
-						EDUCATION
-						</h3>
 
-						<h4 style=" font-size: 1.1vw; padding-left: 3vw; letter-spacing: 0.1vw">
-							COLLEGE - UNIVERSITY OF CALOOCAN CITY (SY. 2018-2022)
+				<div style="width: 90%; height: 42vw; float: left; background-image: url(css/assets/marble.jpg); background-size: 100%; background-repeat: no-repeat; border-radius: 2vw;">
+
+					<div style="width: 3%; height: 40vw; float: left;"> </div>
+				<!-- Multimedia -->
+					<div style="background-color: rgba(0, 0, 0, .40);backdrop-filter: blur(10px); width: 30%; height: 37vw; float: left;margin-top: 2.2vw;  border-radius: 2vw;">
+						<center>
+							<h3 style=" color: #FFC5F6; font-size: 1.5vw; letter-spacing: 0.1vw">
+							MULTIMEDIA SKILLS
+							</h3>
+						</center>
+
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							PHOTO EDITING AND
+						</h4>
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 0vw 0vw 0vw 0vw;">
+							GRAPHIC DESIGN
 						</h4>
 
-						<p style=" font-size: 1.2vw; padding-left: 3vw; margin: 0; letter-spacing: 0.1vw">
-							Bachelor Science of Entertainment, Multimedia and Computing (BSEMC)<br>
-							Biglang Awa St. Grace Park East, 12th Avenue Caloocan City
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Adobe Photoshop, Illustrator, Canva
+
+						</p>
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							VIDEO EDITING
+						</h4>
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Adobe Premiere, Sony Vegas, Filmora
+
+						</p>
+
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							BASIC MOTION GRAPHICS
+						</h4>
+
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 0vw 0vw 0vw 0vw;">
+							AND ANIMATION
+						</h4>
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Adobe After Effects
+
+						</p>
+
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							PHOTOGRAPHY, PRODUCT SHOOT
+						</h4>
+
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 0vw 0vw 0vw 0vw;">
+							IMAGE POST PROCESSING
+						</h4>
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Adobe Lightroom, Photoshop
+
+						</p>
+
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							SOUND EDITING AND MIXING
+						</h4>
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Adobe Audition, Audacity
 
 						</p>
 
 					</div>
+				<!-- Multimedia -->
 
-					<div style="background-color: rgba(255, 255, 255, .15);backdrop-filter: blur(10px); width: 30%; height: 37vw; float: left; margin: 1vw; border-radius: 2vw;">
+					<div style="width: 2%; height: 40vw; float: left;"> </div>
+
+				<!-- Web Design -->
+					<div style="background-color: rgba(0, 0, 0, .40);backdrop-filter: blur(10px); width: 30%; height: 37vw; float: left;margin-top: 2.2vw;  border-radius: 2vw;">
+
+						<center>
+							<h3 style=" color: #FFC5F6; font-size: 1.5vw; letter-spacing: 0.1vw">
+							WEB DESIGN - UI/UX AND<br>
+							SOFTWARE DEVELOPMENT
+							</h3>
+						</center>
+
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							WEB DESIGNING
+						</h4>
+						
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							HTML CSS BASIC JS AND PHP
+
+	 					</p>
+
+	 					<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							UI/UX AND PROTOTYPING	
+						</h4>
+						
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Figma, Adobe XD, InVision
+
+	 					</p>
+
+	 					<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							FUNNEL DESIGN	
+						</h4>
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Click Funnels and other funnel sites
+	 					</p>
+
+	 					<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 1vw 0vw 0vw 0vw;">
+							MOBILE APP DESIGN 
+						</h4>
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 0vw 0vw 0vw 0vw;">
+							AND DEVELOPMENT
+						</h4>
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							using Android Studio
+	 					</p>
+
+	 					<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							SOFTWARE DEVELOPMENT
+						</h4>
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Netbeans, Visual Studio using programming languages Java and C#
+
+
+
 
 					</div>
+				<!-- Web Design -->
 
-					<div style="background-color: rgba(255, 255, 255, .15);backdrop-filter: blur(10px); width: 30%; height: 37vw; float: left; margin: 1vw; border-radius: 2vw;">
+					<div style="width: 2%; height: 40vw; float: left;"> </div>
+
+				<!-- Game dev -->
+					<div style="background-color: rgba(0, 0, 0, .40);backdrop-filter: blur(10px); width: 30%; height: 37vw; float: left;margin-top: 2.2vw;  border-radius: 2vw;">
+
+						<center>
+							<h3 style=" color: #FFC5F6; font-size: 1.5vw; letter-spacing: 0.1vw">
+							3D MODELLING AND <br>GAME DEVELOPMENT
+							</h3>
+						</center>
+
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							3D MODELLING, TEXTURING <br>
+							BASIC ANIMATION
+						</h4>
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							using Blender, Maya
+	 					</p>
+
+	 					<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							
+						</h4>
+
+						<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							GAME DEVELOPMENT
+						</h4>
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Unreal Engine and Unity
+	 					</p>
+
+	 					<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							3D GAME ENVIROMENT DESIGN 
+						</h4>
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Unreal Engine, Unity Blender
+	 					</p>
+
+	 					<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							3D GAME ASSETS ARTIST
+						</h4>
+
+						<p style=" font-size: 1vw; padding-left: 3vw; margin: .4vw 0vw 0vw 0vw;; letter-spacing: 0.1vw">
+							Blender, Maya and Unreal Engine
+	 					</p>
+
+	 					<h4 style=" font-size: 1.1vw; padding-left: 2vw; letter-spacing: 0.1vw; margin: 2vw 0vw 0vw 0vw;">
+							PROJECT MANAGMENT, QUALITY CONTROL AND TESTER FOR GAMES AND OTHERS APPS
+						</h4>
+
+
+
 
 					</div>
-					
+				<!-- Game dev -->
+
+					<div style="width: 3%; height: 40vw; float: left;"> </div>
 				</div>
+			
 			<!-- Skills end -->
 			
 
 
 			<!-- Projects -->
 				<div id="projects">
-					<h3 style=" color: #FFC5F6; font-size: 1.3vw; padding-left: 8vw;margin-bottom: 3wv; letter-spacing: 0.1vw;">
-						RECENT PROJECTS
-					</h3>
-						<!--BLPSU-->
-							<div class="#projects" style="width: 100%; height: 22vw; float: left; ">
+					<!-- PORTFOLIO -->
+					<div id="PORTFOLIO">
 
-								<div id="left_margin_line" style="width: 10%; height: 2vw; float: left;">
+						<!-- The Modal -->
+							<div id="ligaw_modal" class="modal1">
+
+							<!-- Modal content -->
+							<div class="ligaw_modal_content">
+								<div style="width: 90%; height: 5vw; float: left;">
 									
-								</div >
+								</div>
 
-								<div style="width: 40%; height: 20vw; float: left; ">
+								<div style="width: 10%; height: 5vw; float: left;">
+									<span class="close" >&times;</span>
 									
-									<div style="width: 40%; height:  12vw; float: left; ">
-										<!-- blpsu logo -->
-										<img src="css/assets/blpsu_logo.png" style="width:12vw; height: 12vw; padding-top: 1vw; padding-left: 1vw;">
-										
-									</div>
-
-									<div style="width: 60%; height:  12vw; float: left;">
-										<h3 style=" color:#FFC5F6 ;font-size: 1.8vw; padding: 1.5vw 0vw 0vw 2vw; letter-spacing: 0.1vw;">
-										Barya Lang Po <br> 
-										Sa Umaga Game
-										</h3>
-										<p style=" font-size: 1vw; padding: 0vw 0vw 0vw 2vw; letter-spacing: 0.1vw;">
-										May 2021
-										</p>s
-									</div>
-
-									<div style="width: 100%; height:  8vw; float: left; ">
-										<p style=" font-size: 1vw; padding: 0vw 0vw 0vw 1.5vw; letter-spacing: 0.1vw;">
-										Barya Lang Po Sa Umaga is a hypercasual mobile and <br>
-										desktop 2D game with a classic pinoy jeepney theme.
-										The gameplay is similar to the popular game color switch<br>
-										but the ball or the coins drops and the player must be <br> 
-										quick to catch the 2 different coin simultaneously. 
-
-										</h3>
-									</div>
-
-
-
 								</div>
 
-								<div style="width: 20%; height: 20vw; float: left; ">
-
-									<!-- blpsu start -->
-										<center>
-										<img src="css/assets/blpsu_start1.png" style="width:11vw; height: 21vw;">
-										</center>
-
-								</div>
-								<div  style="width: 20%; height: 20vw; float: left;">
-
-									<!-- blpsu game -->
-										<center>
-										<img src="css/assets/blpsu_game1.png" style="width:11vw; height: 21vw;">
-										</center>
-
-								</div>
-
-
-								<div id="right_margin_line" style="float: right;">
-									<br>
-								</div>
+								<div style="width: 100%; height: 43vw; float: left; background-image: url(css/assets/ligaw_bg2.png); background-size: 100%; background-repeat: no-repeat;">
 									
+								</div>
+							    
+							    
 								
+							      
 							</div>
-						<!--BLPSU end-->
-
-						<!--pink line-->
-							<div id="divider" style="width: 100%; height: 0.5vw; float: left; margin: 2vw 0vw 3vw 0vw;">
-
-								<div id="left_margin_line" style="width: 10%; height: 0.5vw; float: left;">
-									<br>
-								</div >
-
-								<div id="blue_line" style="width: 80%; height: 0.3vw; background-color: #E43397; float: left; border-radius: 20px;" >
-									<br>
-								</div>
-
-
-								<div id="right_margin_line" style="float: right;"></div>
-									
-								
+							  
 							</div>
-						<!--pink line end-->
 
-						<!--SUMPAK-->
-							<div id="sumpak" style="width: 100%; height: 18.3vw; float: left; ">
+							
+						<!-- The Modal -->	
 
-								<div id="left_margin_line" style="width: 10%; height: 2vw; float: left;">
-									
-								</div >
+						<div style="width: 5%; height: 42vw; float: left;"> </div>
+						<!-- LIGAW -->
+						<div style="width: 90%; height: 42vw; float: left; background-image: url(css/assets/ligaw_bg.png); background-size: 100%; background-repeat: no-repeat; border-radius: 2vw; opacity: 1;">
 
-								<div style="width: 16%; height: 20vw; float: left; ">
+							<h1 style=" color: #FFC5F6; font-size: 3vw; padding-left: 3vw;
+							margin: 2vw 0vw 1vw 0vw; letter-spacing: 0.1vw;">
+							RECENT PROJECTS
+							</h1>
 
-									<!-- sumpak start -->
-										<center>
-										<img src="css/assets/sumpak_start.png" style="width:20vw; height: 12vw;">
-										</center>
+							<div 
+							style="
+							width: 20%;
+							height: 10vw;
+							float: left;
+							border-radius: 2vw;
+							margin: 23vw 0vw 0vw 2vw ;
+							background: rgba(255, 255, 255, 0.05);
+							box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+							backdrop-filter: blur(10px);
+							-webkit-backdrop-filter: blur(5px);
+							">
+								<button id="ligaw_btn">LIGAW</button>
 
-								</div>
-								<div  style="width: 28%; height: 20vw; float: left;">
-
-									<!-- sumpak game -->
-										<center>
-										<img src="css/assets/sumpak_game.png" style="width:22vw; height: 12vw; margin: 10vw 5vw 0vw 0vw;">
-										</center>
-
-								</div>
-
-								<div style="width: 36%; height: 20vw; float: left; ">
-
-									<div style="width: 20%; height:  12vw; float: left;">
-										<h3 style=" color:#FFC5F6 ;font-size: 1.8vw; padding: 3vw 0vw 0vw 0vw; letter-spacing: 0.1vw; text-align: right;">
-										SUMPAK
-										</h3>
-										<p style=" font-size: 1vw; padding: 0vw 0vw 0vw 0vw; letter-spacing: 0.1vw; text-align: left;">
-										June 2021
-										</p>
-									</div>
-
-									<div style="width: 80%; height:  12vw; float: left; ">
-										<!-- blpsu logo -->
-										<img src="css/assets/sumpak_logo.png" style="width:25vw; height: 12vw; padding-top: 1vw; padding-left: 1vw;">
-										
-									</div>
-
-									<div style="width: 100%; height:  8vw; float: left; ">
-										<p style=" font-size: 1vw; padding: 0vw 0vw 0vw 0vw; letter-spacing: 0.1vw;">
-										SUMPAK is a 2D local multiplayer game based on 2 kids playing DIY gun made of bamboo or any cylinder object that shoots different kinds of projectiles like peas, fruit’s skin and many more. Their goal is to hit each other and gain points and reach a score to win.
-										</h3>
-									</div>
-								</div>
+								<h2 style=" color: #ffffff; font-size: 1vw; padding-left: 2vw;
+								margin: 0vw 0vw 0vw 0vw; letter-spacing: 0.5vw;">
+								HORROR GAME
+								</h2>
 
 
-								<div id="right_margin_line" style="float: right;">
-									<br>
-								</div>
-									
-								
+
 							</div>
-						<!--SUMPAK-->
 
-				<div id="topwave" style="width: 100%; float: left;">
-				
-				<img src="css/assets/bottom_wave.png" style="width:45vw; height: 20vw; border-radius: 0vw 0vw 0vw 2vw;">
+						<!-- LIGAW MODAL -->
 
-				</div>
+
+
+						<script>
+						// Get the modal
+						var modal = document.getElementById("ligaw_modal");
+
+						// Get the button that opens the modal
+						var ligaw_btn = document.getElementById("ligaw_btn");
+
+						// Get the <span> element that closes the modal
+						var span = document.getElementsByClassName("close")[0];
+
+						// When the user clicks the button, open the modal 
+						ligaw_btn.onclick = function() {
+						  modal.style.display = "block";
+						}
+
+						// When the user clicks on <span> (x), close the modal
+						span.onclick = function() {
+						  modal.style.display = "none";
+						}
+
+						// When the user clicks anywhere outside of the modal, close it
+						window.onclick = function(event) {
+						  if (event.target == modal) {
+						    modal.style.display = "none";
+						  }
+						}
+						</script>
+
+						<!-- LIGAW MODAL -->
+
+
+
+						
+						</div>
+						<!-- LIGAW -->
+
+						<div style="width: 5%; height: 42vw; float: right;"> </div>
+					<!-- PORTFOLIO -->
+					</div>
 
 						
 				
@@ -401,6 +508,8 @@
 			<!-- Projects end -->
 
 				
+
+		</div>
 
 		</div>
 	<!--center div end  -->
