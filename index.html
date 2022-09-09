@@ -25,12 +25,13 @@
 		style="
 		z-index: -1;
 		width: 90%; 
-		height: 100%; 
+		height: 240vw; 
 		float: left;
 		margin-top: 5vw;
 		margin-bottom: 5vw;
 		background-image: url(css/assets/body_bg.png); 
-		background-size: 105%; 
+		background-size: 100%; 
+		background-size: 100% 240vw;
 		background-repeat: no-repeat; 
 		border-radius: 2vw;
 		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -395,16 +396,16 @@
 
 			<!-- Projects -->
 				<div id="projects">
-					<!-- PORTFOLIO -->
+				<!-- PORTFOLIO -->
 					<div id="PORTFOLIO">
 
-						<!-- The Modal -->
+						<!-- ligaw modal -->
 							<div id="ligaw_modal" class="modal1">
 
 							<!-- Modal content -->
 							<div class="ligaw_modal_content">
 								<div style="width: 90%; height: 5vw; float: left;">
-									
+									<h3>Ligaw is a horror game...</h3>
 								</div>
 
 								<div style="width: 10%; height: 5vw; float: left;">
@@ -415,19 +416,14 @@
 								<div style="width: 100%; height: 43vw; float: left; background-image: url(css/assets/ligaw_bg2.png); background-size: 100%; background-repeat: no-repeat;">
 									
 								</div>
-							    
-							    
-								
-							      
 							</div>
 							  
 							</div>
+						<!-- ligaw modal -->	
 
-							
-						<!-- The Modal -->	
+						<div style="width: 5%; height: 31vw; float: left;"> </div>
 
-						<div style="width: 5%; height: 42vw; float: left;"> </div>
-						<!-- LIGAW -->
+					<!-- LIGAW -->
 						<div style="width: 90%; height: 42vw; float: left; background-image: url(css/assets/ligaw_bg.png); background-size: 100%; background-repeat: no-repeat; border-radius: 2vw; opacity: 1;">
 
 							<h1 style=" color: #FFC5F6; font-size: 3vw; padding-left: 3vw;
@@ -437,7 +433,7 @@
 
 							<div 
 							style="
-							width: 20%;
+							width: 25%;
 							height: 10vw;
 							float: left;
 							border-radius: 2vw;
@@ -447,63 +443,196 @@
 							backdrop-filter: blur(10px);
 							-webkit-backdrop-filter: blur(5px);
 							">
-								<button id="ligaw_btn">LIGAW</button>
+								<button id="ligaw_btn">GAME DEV</button>
 
-								<h2 style=" color: #ffffff; font-size: 1vw; padding-left: 2vw;
+								<h2 style=" color: #ffffff; font-size: 1vw; padding-left: 3vw;
 								margin: 0vw 0vw 0vw 0vw; letter-spacing: 0.5vw;">
-								HORROR GAME
+								LIGAW - HORROR
 								</h2>
-
-
 
 							</div>
 
-						<!-- LIGAW MODAL -->
+						<!-- LIGAW SCRIPT -->
+								<script>
+								// Get the modal
+								var modal = document.getElementById("ligaw_modal");
 
+								// Get the button that opens the modal
+								var ligaw_btn = document.getElementById("ligaw_btn");
 
+								// Get the <span> element that closes the modal
+								var span = document.getElementsByClassName("close")[0];
 
-						<script>
-						// Get the modal
-						var modal = document.getElementById("ligaw_modal");
+								// When the user clicks the button, open the modal 
+								ligaw_btn.onclick = function() {
+								  modal.style.display = "block";
+								}
 
-						// Get the button that opens the modal
-						var ligaw_btn = document.getElementById("ligaw_btn");
+								// When the user clicks on <span> (x), close the modal
+								span.onclick = function() {
+								  modal.style.display = "none";
+								}
 
-						// Get the <span> element that closes the modal
-						var span = document.getElementsByClassName("close")[0];
+								// When the user clicks anywhere outside of the modal, close it
+								window.onclick = function(event) {
+								  if (event.target == modal) {
+								    modal.style.display = "none";
+								  }
+								}
+								</script>
+						<!-- LIGAW SCRIPT -->
 
-						// When the user clicks the button, open the modal 
-						ligaw_btn.onclick = function() {
-						  modal.style.display = "block";
-						}
-
-						// When the user clicks on <span> (x), close the modal
-						span.onclick = function() {
-						  modal.style.display = "none";
-						}
-
-						// When the user clicks anywhere outside of the modal, close it
-						window.onclick = function(event) {
-						  if (event.target == modal) {
-						    modal.style.display = "none";
-						  }
-						}
-						</script>
-
-						<!-- LIGAW MODAL -->
-
-
-
-						
 						</div>
-						<!-- LIGAW -->
+					<!-- LIGAW -->
 
-						<div style="width: 5%; height: 42vw; float: right;"> </div>
-					<!-- PORTFOLIO -->
+					
+				<!-- 2ND LAYER -->
+					<div style="width: 100%; height: 31vw; float: right; margin: 2vw 0vw 0vw 0vw;"> 
+						<div style="width: 5%; height: 31vw; float: left;"> </div>
+
+					<!-- AQUAFLASH -->
+						<div style="width: 58%; height: 31vw; float: left; background-color: #7D6F9B; border-radius: 2vw;"> 
+
+							<div 
+							style="
+							width: 18%; 
+							height: 6vw; 
+							float: left; 
+							background-color: red; 
+							border-radius: 2vw; 
+							position: absolute; 
+							z-index: 2;
+							margin: 23vw 0vw 0vw 2vw ;
+							background: rgba(255, 255, 255, 0.05);
+							box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+							backdrop-filter: blur(10px);"> 
+
+								<button id="aqua_btn">WEB DESIGN</button>
+
+								
+							</div>
+
+							<div style="width: 100%; height: 31vw; float: left; background-color: #7D6F9B; border-radius: 2vw; border-style: solid; border-width: 2vw; border-color: #7D6F9B;"> 
+									<video width="100%" height="100%" muted loop autoplay>
+									<source src="css/assets/aquaflash1.mp4" type="video/mp4">
+									</video>
+
+							</div>
+						</div>
+					<!-- AQUAFLASH -->
+
+						<div style="width: 2%; height: 31vw; float: left ;"> </div>
+
+					<!-- 3D ISO -->
+							
+							<div style="width: 30%; height: 31vw; float: left; background-color: black; border-radius: 2vw;">
+
+								<div 
+								style="
+								width: 17%; 
+								height: 5.6vw; 
+								float: left; 
+								background-color: red; 
+								border-radius: 2vw; 
+								position: absolute; 
+								z-index: 2;
+								margin: 23vw 0vw 0vw 2vw ;
+								background: rgba(255, 255, 255, 0.05);
+								box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+								backdrop-filter: blur(10px);"> 
+
+								<button id="iso_btn">3D MODELLING</button>
+
+								
+							</div>
+
+								<div style="width: 100%; height: 42vw; float: left; background-image: url(css/assets/iso.png); background-size: 100%; background-repeat: no-repeat; border-radius: 2vw; margin: 5vw 0vw 0vw 0vw;">
+								</div>	
+
+							</div>
+					<!-- 3D ISO -->
+						<div style="width: 5%; height: 31vw; float: left ;"> </div>
 					</div>
+
+				<!-- 2ND LAYER -->
+
+				<!-- 3RD LAYER -->
+					<div style="width: 100%; height: 31vw; float: right; margin: 2vw 0vw 0vw 0vw;"> 
+					<div style="width: 5%; height: 31vw; float: left;"> </div>
+					<!-- ANIMATION -->
+						<div style="width: 35%; height: 31vw; float: left; background-color: #2CA0E7; border-radius: 2vw;">
+
+							<div 
+							style="
+							width: 21%; 
+							height: 5.6vw; 
+							float: left; 
+							background-color: red; 
+							border-radius: 2vw; 
+							position: absolute; 
+							z-index: 2;
+							margin: 23vw 0vw 0vw 2vw ;
+							background: rgba(255, 255, 255, 0.05);
+							box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+							backdrop-filter: blur(10px);"> 
+
+								<button id="anim_btn">MOTION GRAPHICS</button>
+
+								
+							</div>
+
+
+							<div style="width: 100%; height: 31vw; float: left; background-color: #2CA0E7; border-radius: 1vw; border-style: solid; border-width: 2vw; border-color: #2CA0E7;"> 
+									<video width="100%" height="100%" muted loop autoplay>
+									<source src="css/assets/ANIMATION.mp4" type="video/mp4">
+									</video>
+
+							</div>
+							
+						</div>
+					<!-- ANIMATION -->
+
+					<div style="width: 2%; height: 31vw; float: left;"> </div>
+					<!-- UI /UX -->
+							
+
+						<div style="width: 53%; height: 31vw; float: left; background-color: #FFBF00; border-radius: 2vw;">
+
+							<div 
+							style="
+							width: 18%; 
+							height: 5.6vw; 
+							float: left; 
+							background-color: red; 
+							border-radius: 2vw; 
+							position: absolute; 
+							z-index: 2;
+							margin: 23vw 0vw 0vw 2vw ;
+							background: rgba(255, 255, 255, 0.05);
+							box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+							backdrop-filter: blur(10px);"> 
+
+								<button id="ui_btn">UI/UX - APP DEV</button>
+
+								
+							</div>
+
+							<div style="width: 100%; height: 31vw; float: left; background-image: url(css/assets/ui.png); background-size: 100%; background-repeat: no-repeat; border-radius: 2vw;">
+							</div>	
+							
+						</div>
+					<!-- UI /UX -->
+					<div style="width: 5%; height: 31vw; float: left;"> </div>
+
+
+				<!-- 3RD LAYER -->
+					
+
 
 						
 				
+					</div>
+				<!-- PORTFOLIO -->
 				</div>
 			<!-- Projects end -->
 
