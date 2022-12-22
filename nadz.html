@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ROMEL NADONG</title>
+			
+ 			<link rel="shortcut icon" type="image/x-icon" href="css/assets/icon.png" />
+			
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+			<!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
+
+			<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+			<script src="https://cdn.tailwindcss.com"></script>
+			<style type="text/css">
+			@font-face
+			{
+				font-family: google_sans;
+				src: url("assets/fonts/ProductSans-Regular.ttf");
+			}
+			h1
+			{
+				
+				font-family: google_sans; 
+				/*color: WHITE	*/
+			}
+
+			.virtual_360_test
+			{
+				float: left;
+				height: 220vw;
+				width: 100vw;
+
+			}
+			@media only screen and (min-width: 480px)
+			{
+				.virtual_360_test
+				{
+					float: left;
+					height: 50vw;
+					width: 99vw;
+
+				}
+			}
+			.viewer
+			{
+				width: 100%; height: 220vw; margin: 0; float:right;
+			}
+			@media only screen and (min-width: 480px)
+			{
+				.viewer
+				{
+					width: 100%; height: 50vw; margin: 0; float:right;
+				}
+			}
+			.vignette
+			{
+				background: linear-gradient(359.44deg, #000000 0%, rgba(3, 0, 0, 0) 31.84%);
+							}
+			@media only screen and (min-width: 480px)
+			{
+				.vignette
+				{
+					background: linear-gradient(270.23deg, #000000 2.06%, rgba(3, 0, 0, 0) 19.65%, rgba(3, 0, 0, 0) 77.58%, #030000 99.78%);
+				}
+			}
+			html 
+			{
+			   	scrollbar-width: none;
+			}
+
+
+			</style>
+
+
+</head>
+<body>
+		<div class="main bg-black h-[100vw] w-[100vw]"> 
+			<div class="main bg-black h-[220vw] md:h-[50vw] w-[100vw] md:w-[100vw] float-left">
+				
+					<!-- 	<iframe class="virtual_360_test overflow-hidden" allowfullscreen="true"
+			            src="https://momento360.com/e/u/6d03221afbfd4908be9cc9daf3d746ff?utm_campaign=embed&utm_source=other&heading=-0&pitch=0&field-of-view=40&size=medium&display-plan=true&pan-speed=.1&display-mode=mp">
+			            </iframe> -->
+
+	            <iframe class="virtual_360_test overflow-hidden"
+	            src="https://momento360.com/e/u/3f842d13b67b4d07b283b5cd1e23fba5?utm_campaign=embed&utm_source=other&heading=-94.86&pitch=4.68&field-of-view=57&size=medium&pan-speed=.1&display-mode=mp">
+	            </iframe>
+	            <!-- <div class="h-[50vw] w-[99vw] bg-black/50">
+	            	<br>
+	            </div> -->
+
+			           <!--  <div 
+			            class="h-[50vw] w-[99vw] float-left mt-[-50vw] overflow-hidden" 
+			            style="background: radial-gradient(70.07% 73.63% at 50% 47.51%, rgba(0, 0, 0, 0) 0%, #070337 73.44%);">
+			            <br>
+			        	</div> -->
+	        	<div 
+	            class="h-[220vw] md:h-[50vw] w-[100vw] md:w-[99vw] float-left mt-[-220vw] md:mt-[-50vw] vignette"
+	            style="" 
+	            >
+	            <!-- <h1 class="text-[5vw] text-gray-800 font-sans">romel nadz</h1> -->
+					<div style=" width: 100VW; height: 50vw; margin:0; float: left; background-color: rgba(0, 0, 0, 0); border-radius: 50vw;" > 
+
+						<model-viewer class="viewer" bounds="tight" src="css/assets/cube3.glb" autoplay ar ar-modes="webxr scene-viewer quick-look"  cameraenvironment-image="neutral" poster="poster.webp" shadow-intensity="0" min-camera-orbit="auto auto 10.216m" min-field-of-view="45deg" auto-rotate>
+						
+						</model-viewer>
+					</div>
+					<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+	        	</div>
+	        	
+			</div>
+			<!-- <div class="bg-black h-[50vw] w-[99vw] float-left">
+	        		
+	        	</div>	 -->	
+		</div>
+	
+
+</body>
+</html>
